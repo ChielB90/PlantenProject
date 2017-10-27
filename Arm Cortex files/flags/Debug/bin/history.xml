@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=output.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\flags -TC:\CooCox\CoIDE\configuration\ProgramData\flags/arm-gcc-link.ld -g">
+      <target file="output.elf" lastModified="14dadf244e6">
+         <source file="..\obj\delay.o" lastModified="14dadf222d6"/>
+         <source file="..\obj\os_time.o" lastModified="14dadf2240e"/>
+         <source file="..\obj\os_cpu_a.o" lastModified="14dadf2243d"/>
+         <source file="..\obj\keys.o" lastModified="14dadf22565"/>
+         <source file="..\obj\buzzer.o" lastModified="14dadf2265f"/>
+         <source file="..\obj\os_cpu_c.o" lastModified="14dadf22739"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14dadf22852"/>
+         <source file="..\obj\os_flag.o" lastModified="14dadf229f7"/>
+         <source file="..\obj\uart.o" lastModified="14dadf22b2f"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14dadf22c09"/>
+         <source file="..\obj\taskcreate.o" lastModified="14dadf22ce4"/>
+         <source file="..\obj\main.o" lastModified="14dadf22ded"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14dadf22f25"/>
+         <source file="..\obj\printf.o" lastModified="14dadf230bb"/>
+         <source file="..\obj\os_sem.o" lastModified="14dadf231f3"/>
+         <source file="..\obj\os_core.o" lastModified="14dadf23405"/>
+         <source file="..\obj\leds.o" lastModified="14dadf234df"/>
+         <source file="..\obj\os_mem.o" lastModified="14dadf235d9"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14dadf236c3"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14dadf2377e"/>
+         <source file="..\obj\syscalls.o" lastModified="14dadf2382a"/>
+         <source file="..\obj\os_q.o" lastModified="14dadf23981"/>
+         <source file="..\obj\os_task.o" lastModified="14dadf23b17"/>
+         <source file="..\obj\mutex.o" lastModified="14dadf23c20"/>
+         <source file="..\obj\os_mutex.o" lastModified="14dadf23d77"/>
+         <source file="..\obj\lcd.o" lastModified="14dadf23f0d"/>
+         <source file="..\obj\misc.o" lastModified="14dadf23fb8"/>
+         <source file="..\obj\ucos_ii.o" lastModified="14dadf24083"/>
+         <source file="..\obj\os_mbox.o" lastModified="14dadf241ab"/>
+      </target>
+   </processor>
+</history>

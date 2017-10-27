@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 3.4.2 mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II\Processor independent -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II\Application specific -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis_boot -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4 -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\ports -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis_lib\include -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis_lib -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II\Processor specific -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II">
+      <target file="kbd.o" lastModified="1480438e571">
+         <source file="..\..\..\kbd.c" lastModified="147f2ad9313"/>
+      </target>
+      <target file="flag.o" lastModified="1480438ff09">
+         <source file="..\..\..\flag.c" lastModified="147f2ad81b1"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc 3.4.2 mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II\Processor independent -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II\Application specific -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis_boot -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4 -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\ports -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis_lib\include -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\cmsis_lib -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II\Processor specific -I..\..\..\..\..\Users\MScager\Google Drive\_docent\uC-OSII\UC_OS2_M4\flags\uC-OS II">
+      <target file="os_flag.o" lastModified="14dadf229f7">
+         <source file="..\..\..\uC-OS II\Processor independent\os_flag.c" lastModified="14273aa7420"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14dadf236c3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14259f29760"/>
+      </target>
+      <target file="buzzer.o" lastModified="14dadf2265f">
+         <source file="..\..\..\ports\buzzer.c" lastModified="147102eb7f8"/>
+      </target>
+      <target file="mutex.o" lastModified="14dadf23c20">
+         <source file="..\..\..\mutex.c" lastModified="14daa759040"/>
+      </target>
+      <target file="os_sem.o" lastModified="14dadf231f3">
+         <source file="..\..\..\uC-OS II\Processor independent\os_sem.c" lastModified="14269081270"/>
+      </target>
+      <target file="os_mbox.o" lastModified="14dadf241ab">
+         <source file="..\..\..\uC-OS II\Processor independent\os_mbox.c" lastModified="14269082210"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14dadf22c09">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="146c8d40a70"/>
+      </target>
+      <target file="ucos_ii.o" lastModified="14dadf24083">
+         <source file="..\..\..\uC-OS II\Processor independent\ucos_ii.c" lastModified="14268f22140"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14dadf2377e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1471a9ba610"/>
+      </target>
+      <target file="printf.o" lastModified="14dadf230bb">
+         <source file="..\..\..\stdio\printf.c" lastModified="1429c735750"/>
+      </target>
+      <target file="os_mutex.o" lastModified="14dadf23d77">
+         <source file="..\..\..\uC-OS II\Processor independent\os_mutex.c" lastModified="14269082210"/>
+      </target>
+      <target file="taskcreate.o" lastModified="14dadf22ce4">
+         <source file="..\..\..\taskcreate.c" lastModified="14daa664e48"/>
+      </target>
+      <target file="os_cpu_a.o" lastModified="14dadf2243d">
+         <source file="..\..\..\uC-OS II\Processor specific\os_cpu_a.s" lastModified="1429c61e290"/>
+      </target>
+      <target file="misc.o" lastModified="14dadf23fb8">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14292da5ef0"/>
+      </target>
+      <target file="leds.o" lastModified="14dadf234df">
+         <source file="..\..\..\ports\leds.c" lastModified="147eeefdb26"/>
+      </target>
+      <target file="keys.o" lastModified="14dadf22565">
+         <source file="..\..\..\ports\keys.c" lastModified="14710ff7190"/>
+      </target>
+      <target file="os_cpu_c.o" lastModified="14dadf22739">
+         <source file="..\..\..\uC-OS II\Processor specific\os_cpu_c.c" lastModified="1429c65ab50"/>
+      </target>
+      <target file="os_mem.o" lastModified="14dadf235d9">
+         <source file="..\..\..\uC-OS II\Processor independent\os_mem.c" lastModified="142690829e0"/>
+      </target>
+      <target file="os_q.o" lastModified="14dadf23981">
+         <source file="..\..\..\uC-OS II\Processor independent\os_q.c" lastModified="14269081a40"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14dadf22f25">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="142546cdd50"/>
+      </target>
+      <target file="os_time.o" lastModified="14dadf2240e">
+         <source file="..\..\..\uC-OS II\Processor independent\os_time.c" lastModified="14269080aa0"/>
+      </target>
+      <target file="uart.o" lastModified="14dadf22b2f">
+         <source file="..\..\..\ports\uart.c" lastModified="147edfd81dc"/>
+      </target>
+      <target file="delay.o" lastModified="14dadf222d6">
+         <source file="..\..\..\ports\delay.c" lastModified="1429c91e3a0"/>
+      </target>
+      <target file="syscalls.o" lastModified="14dadf2382a">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1429c735750"/>
+      </target>
+      <target file="os_task.o" lastModified="14dadf23b17">
+         <source file="..\..\..\uC-OS II\Processor independent\os_task.c" lastModified="14269086860"/>
+      </target>
+      <target file="os_core.o" lastModified="14dadf23405">
+         <source file="..\..\..\uC-OS II\Processor independent\os_core.c" lastModified="1427db00930"/>
+      </target>
+      <target file="lcd.o" lastModified="14dadf23f0d">
+         <source file="..\..\..\ports\lcd.c" lastModified="147eee54714"/>
+      </target>
+      <target file="main.o" lastModified="14dadf22ded">
+         <source file="..\..\..\main.c" lastModified="14dade63ee5"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14dadf22852">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1429c67ddd0"/>
+      </target>
+   </processor>
+</history>
