@@ -19,6 +19,7 @@ extern int Uart_debug_out; // bitmask-toggle key for task-debug-output
 #define LOOP_DELAY          30  // standard delay time for tasks
 #define LED_DELAY           50  // to slow leds down
 #define QSIZE               10  // 10 q-members
+#define LQSIZE 				32
 
 //flag difines
 #define READY 0x01
@@ -29,7 +30,7 @@ enum {
 
     MUTEX_PRTY = 8,       // careful, this one should be highest of all using tasks
 
-    MUTEXSENSOR_PRTY = 10,
+    SENSORREAD_PRTY = 10,
 
     READFLAG_PRTY,
     MBOXWRITEPOST_PRTY,
@@ -51,6 +52,7 @@ extern OS_EVENT		 *LORA_ReadHandle;
 extern OS_EVENT		 *LORA_WriteHandle;
 extern OS_FLAG_GRP	 *FlagReadHandle;
 extern OS_FLAG_GRP	 *FlagWriteHandle;
+extern OS_EVENT      *LoraQHandle;
 
 // q structure
 typedef struct queue
@@ -62,8 +64,8 @@ typedef struct queue
 extern Q     data_queue[]; // data queue, in this case array of Q-structs
 extern void* os_queue[];   // pointer queue for OS
 
-extern long DATA; //globel sensor data
 
+extern void*               lora_queue[LQSIZE];    // queue with void-pointers for OS, holds addresses of data-q-members
 
 // function prototypes for various tasks to prevent compiler warnings
 extern void InitTask      (void *pdata);
@@ -78,4 +80,6 @@ extern void LoraRead_PostTask(void *pdata);
 extern void LoraRead_PendTask(void *pdata);
 extern void LoraWrite_PostTask(void *pdata);
 extern void LoraWrite_PendTask(void *pdata);
-extern void Sensor_Task(void *pdata);
+extern void SensorRead_Task(void *pdata);
+
+extern float getData(char address);

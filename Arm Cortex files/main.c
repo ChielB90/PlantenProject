@@ -9,9 +9,6 @@
 #include "taskcreate.h" // for stacksize
 #include "main.h"       // defines, external declarations, enums, prototypes
 
-//sensor data
-long DATA;
-
 int Uart_debug_out = 0xffff; // debug output to uart for all tasks
 //int Uart_debug_out = INTERRUPT_DEBUG_OUT; // start alleen moet interrupt output
 
@@ -30,6 +27,9 @@ OS_FLAG_GRP		   *FlagWriteHandle;
 OS_EVENT           *QueueHandle;        // name of handel on 1 instance of queue-mechanism
 Q                   data_queue[QSIZE];  // data queue, in this case array of Q-structs
 void*               os_queue[QSIZE];    // queue with void-pointers for OS, holds addresses of data-q-members
+
+OS_EVENT    	   *LoraQHandle;
+void*               lora_queue[LQSIZE];    // queue with void-pointers for OS, holds addresses of data-q-members
 
 // application name
 char *version = "uc_project"; // name of this application, will be displayed on uart and lcd
@@ -98,6 +98,7 @@ void CreateHandles()
     }
 
 	QueueHandle = OSQCreate(&os_queue[0], QSIZE);
+	LoraQHandle = OSQCreate(&lora_queue[0], LQSIZE);
 }	
    
 

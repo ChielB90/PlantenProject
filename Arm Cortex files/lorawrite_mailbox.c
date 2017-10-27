@@ -8,14 +8,28 @@
 #include <includes.h>
 #include "main.h"
 
+#define MAXMSGLEN 50
+#define DATASIZE 10
+
 void LoraWrite_PostTask(void *pdata) {
 	INT8U error;
 	char msg[LORA_SIZE];
 	char buffer[LORA_SIZE];
+	char msglen = 0;
+	OS_Q_DATA qd;
 
 	while (TRUE) {
 		OSTimeDly(LOOP_DELAY);
-		UART_gets(buffer, FALSE);
+		OSQQuery(LoraQHandle,&qd);
+		if(qd.OSNMsgs > 0)
+		{
+			while(msglen <= (MAXMSGLEN - DATASIZE) && msglen < (DATASIZE*qd.OSNMsgs))
+			{
+				strcpy((buffer+msglen),(char*)OSQAccept(LoraQHandle,&error));
+				msglen += DATASIZE;
+			}
+			msglen = 0;
+
 		LORA_combine(LORA_TX, buffer, msg);
 		UART_puts("\r\nprint LORA_combine: ");
 		UART_puts(msg);
@@ -23,6 +37,7 @@ void LoraWrite_PostTask(void *pdata) {
 
 		OSFlagPend(FlagWriteHandle, READY,
 				OS_FLAG_WAIT_SET_ALL + OS_FLAG_CONSUME, WAIT_FOREVER, &error);
+		}
 	}
 }
 
@@ -42,7 +57,7 @@ void LoraWrite_PendTask(void *pdata) {
 		if (strstr(response, LOK) != NULL)
 		{
 			UART_puts(MSGEND);
-			UART_puts("LORA responce: ");
+			UART_puts("LORA response: ");
 			UART_puts(response);
 
 			OSFlagPost(FlagReadHandle, READY, OS_FLAG_SET, &error);
