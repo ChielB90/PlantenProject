@@ -8,13 +8,13 @@
 #include <includes.h>
 #include "main.h"
 
-#define MAXMSGLEN 50
+#define LORA_DATASIZE 50
 #define DATASIZE 10
 
 void LoraWrite_PostTask(void *pdata) {
 	INT8U error;
-	char msg[LORA_SIZE];
-	char buffer[LORA_SIZE];
+	char msg[LORA_DATASIZE];
+	char buffer[LORA_DATASIZE];
 	char msglen = 0;
 	OS_Q_DATA qd;
 
@@ -23,9 +23,9 @@ void LoraWrite_PostTask(void *pdata) {
 		OSQQuery(LoraQHandle,&qd);
 		if(qd.OSNMsgs > 0)
 		{
-			while(msglen <= (MAXMSGLEN - DATASIZE) && msglen < (DATASIZE*qd.OSNMsgs))
+			while(msglen <= (LORA_DATASIZE - DATASIZE) && msglen < (DATASIZE*qd.OSNMsgs))
 			{
-				strcpy((buffer+msglen),(char*)OSQAccept(LoraQHandle,&error));
+				strcpy((buffer+msglen),(char*)OSQPend(LoraQHandle, WAIT_FOREVER,&error));
 				msglen += DATASIZE;
 			}
 			msglen = 0;
