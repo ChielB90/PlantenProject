@@ -17,7 +17,7 @@ OS_STK LoraRead_PostTask_Stk	[STACK_SIZE];
 OS_STK LoraRead_PendTask_Stk	[STACK_SIZE];
 OS_STK LoraWrite_PostTask_Stk	[STACK_SIZE];
 OS_STK LoraWrite_PendTask_Stk	[STACK_SIZE];
-OS_STK Sensor_Task_Stk			[STACK_SIZE];
+OS_STK SensorRead_Task_Stk	 	[STACK_SIZE];
 
 // allocation of array of structures
 // notes: the last structure is set to zero's, not necessary, but it simplifies
@@ -34,7 +34,7 @@ TASKDATA tasks[] =
 {	LoraRead_PendTask,	LoraRead_PendTask_Stk,	MBOXREADPEND_PRTY,	STACK_SIZE, OS_TASK_OPT_STK_CHK },
 {	LoraWrite_PostTask, LoraWrite_PostTask_Stk, MBOXWRITEPOST_PRTY, STACK_SIZE, OS_TASK_OPT_STK_CHK },
 {	LoraWrite_PendTask, LoraWrite_PendTask_Stk, MBOXWRITEPEND_PRTY, STACK_SIZE, OS_TASK_OPT_STK_CHK },
-//{	Sensor_Task,		Sensor_Task_Stk,		MUTEXSENSOR_PRTY,	STACK_SIZE,	OS_TASK_OPT_STK_CHK },
+{	SensorRead_Task,	SensorRead_Task_Stk,	SENSORREAD_PRTY,	STACK_SIZE,	OS_TASK_OPT_STK_CHK },
 
     // laatste, niet wissen: nodig om for-loop af te sluiten
 {   NULL,          NULL,              0,                  0,          0                    }
