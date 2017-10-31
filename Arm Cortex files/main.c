@@ -140,6 +140,9 @@ int main (void)
 	BUZZER_init();
     KEYS_init();
 
+    //I2C
+    I2Cinit();
+
     //LORA
     UART_puts("\r\nStart LORA_init...\r\n");
     LORA_init();
