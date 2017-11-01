@@ -381,7 +381,7 @@ INT8U LORA_connect(void)
 	char buffer[LORA_SIZE];
 
 	//LORA join
-	LORA_combine(LORA_JOIN, LOTAA, msg);
+	LORA_combine(LORA_JOIN, LABP, msg);
 	UART_puts("\r\nprint LORA_combine: "); UART_puts(msg);
 
 	LORA_puts(msg);
@@ -392,7 +392,7 @@ INT8U LORA_connect(void)
 	{
 		//LORA module is not registered
 		if(strstr(buffer, LKEYSNOTINIT))
-			LORA_register(LOTAA);
+			LORA_register(LABP);
 
 		UART_puts("\r\ngot error: "); UART_puts(buffer);
 		return FALSE;

@@ -22,39 +22,56 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/uc_project/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/uc_project/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/main.c" title="main.c" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5041" selectionTopPixel="2670"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3657" selectionTopPixel="1292"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="rtcinterrupt.c" partName="rtcinterrupt.c" path="C:/CooCox/CoIDE/workspace/uc_methods/rtcinterrupt.c" title="rtcinterrupt.c" tooltip="C:/CooCox/CoIDE/workspace/uc_methods/rtcinterrupt.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="rtcinterrupt.c" partName="rtcinterrupt.c" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/rtcinterupt.c" title="rtcinterrupt.c" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/uc_methods/rtcinterrupt.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/rtcinterrupt.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="319" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sensor_mutex.c" partName="sensor_mutex.c" path="C:/CooCox/CoIDE/workspace/uc_project/sensor_mutex.c" title="sensor_mutex.c" tooltip="C:/CooCox/CoIDE/workspace/uc_project/sensor_mutex.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sensor_mutex.c" partName="sensor_mutex.c" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/sensor_mutex.c" title="sensor_mutex.c" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/sensor_mutex.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/sensor_mutex.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="491" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="includes.h" partName="includes.h" path="C:/CooCox/CoIDE/workspace/uc_project/uC-OS II/Application specific/includes.h" title="includes.h" tooltip="C:/CooCox/CoIDE/workspace/uc_project/uC-OS II/Application specific/includes.h" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="includes.h" partName="includes.h" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/uC-OS II/Application specific/includes.h" title="includes.h" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/uC-OS II/Application specific/includes.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/uC-OS-II/includes.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2678" selectionTopPixel="1119"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2678" selectionTopPixel="1032"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/CooCox/CoIDE/workspace/uc_project/main.h" title="main.h" tooltip="C:/CooCox/CoIDE/workspace/uc_project/main.h" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/main.h" title="main.h" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/main.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/main.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1109" selectionTopPixel="395"/>
+<editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="182" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lora.c" partName="lora.c" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/ports/lora.c" title="lora.c" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/ports/lora.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/ports/source/lora.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6670" selectionTopPixel="4738"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sensor.c" partName="sensor.c" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/sensor.c" title="sensor.c" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/sensor.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/sensor.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="59" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lorawrite_mailbox.c" partName="lorawrite_mailbox.c" path="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/lorawrite_mailbox.c" title="lorawrite_mailbox.c" tooltip="C:/Users/Tijmen/Documents/EE17-18/CortexM4/Arm Cortex files(30-10-2017)/lorawrite_mailbox.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/uC_project/lorawrite_mailbox.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="16" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="2">
 <expanded>
 <element path="/uC_project"/>
+<element path="/uC_project/ports"/>
+<element path="/uC_project/ports/source"/>
 </expanded>
 <selection>
-<element path="/uC_project"/>
+<element path="/uC_project/lorawrite_mailbox.c"/>
 </selection>
 </viewState>
 </view>
@@ -115,11 +132,24 @@
 <hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
-<view id="org.coocox.builder.ui.views.ProjectView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.search.ui.views.SearchView"/>
-<view id="org.coocox.component.ui.Help"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@10371d5" orientation="512" selectedTabId="org.coocox.component.ui.Help" style="0">
+<fastViews>
+<view id="org.coocox.component.ui.Help" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@190f20d" orientation="512" selectedTabId="org.coocox.builder.ui.views.ProjectView" style="0">
+<fastViews>
+<view id="org.coocox.builder.ui.views.ProjectView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@f28c8c" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29965156"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@f8aabb">
@@ -134,36 +164,29 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@f28c8c" ratio="0.86259544" ratioLeft="791" ratioRight="126" relationship="4" relative="org.eclipse.ui.internal.ViewStack@f8aabb">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@f28c8c" ratio="0.85989493" ratioLeft="491" ratioRight="80" relationship="4" relative="org.eclipse.ui.internal.ViewStack@f8aabb">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.coocox.builder.ui.exampleView" ratio="0.13881613" ratioLeft="265" ratioRight="1644" relationship="2" relative="org.eclipse.ui.internal.ViewStack@f8aabb"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10371d5" ratio="0.7192308" ratioLeft="561" ratioRight="219" relationship="2" relative="org.coocox.builder.ui.exampleView">
-<folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
-<page content="org.coocox.component.ui.Help" label="Help"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10371d5" ratio="0.7363184" ratioLeft="296" ratioRight="106" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder appearance="2" expanded="0">
+<page content="org.coocox.component.ui.Help" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
 <page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44871795" ratioLeft="280" ratioRight="344" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@190f20d" ratio="0.36858973" ratioLeft="230" ratioRight="394" relationship="4" relative="org.eclipse.ui.internal.ViewStack@f8aabb">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.coocox.builder.ui.views.ProjectView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -280,170 +303,171 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/ports/source/lora.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/ports/header/lora.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/lorawrite_mailbox.c"/>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/cmsis_lib/include/stm32f4xx_i2c.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/cmsis_lib/source/stm32f4xx_i2c.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/rtcinterrupt.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/loraread_mailbox.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/taskcreate.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/taskcreate.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/sensor_mutex.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/uC-OS-II/includes.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/cmsis_lib/include/misc.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/main.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/uC-OS-II/includes.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/main.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/ports/source/lora.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/sensor.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/lorawrite_mailbox.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/uC_project/sensor_mutex.c"/>
 </editors>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="7493" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="5996" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="6009" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="560" y="0"/>
-</item>
-<item historyLabel="lora.h" index="1">
-<position info="not_deleted" x="1484" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="560" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="6175" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="5022" y="0"/>
-</item>
-<item historyLabel="lora.h" index="1">
-<position info="not_deleted" x="1484" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="5996" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="7455" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="5041" y="0"/>
-</item>
-<item historyLabel="lora.c" index="0">
-<position info="not_deleted" x="8808" y="0"/>
-</item>
-<item historyLabel="main.c" index="3">
-<position info="not_deleted" x="5041" y="0"/>
-</item>
-<item historyLabel="lorawrite_mailbox.c" index="4">
-<position/>
-</item>
-<item historyLabel="Repository" index="5"/>
-<item historyLabel="stm32f4xx_i2c.h" index="6">
-<position info="not_deleted" x="20983" y="0"/>
-</item>
-<item historyLabel="Repository" index="5"/>
-<item historyLabel="lorawrite_mailbox.c" index="4">
-<position/>
-</item>
-<item historyLabel="stm32f4xx_i2c.c" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="lorawrite_mailbox.c" index="4">
-<position/>
-</item>
-<item historyLabel="rtcinterrupt.c" index="8">
+<item historyLabel="rtcinterrupt.c" index="1">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="lorawrite_mailbox.c" index="4">
-<position/>
-</item>
-<item historyLabel="rtcinterrupt.c" index="8">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="loraread_mailbox.c" index="9">
-<position/>
-</item>
-<item historyLabel="rtcinterrupt.c" index="8">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="taskcreate.h" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="rtcinterrupt.c" index="8">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="taskcreate.c" index="11">
+<item historyLabel="taskcreate.c" index="3">
 <position info="not_deleted" x="1761" y="0"/>
 </item>
-<item historyLabel="rtcinterrupt.c" index="8">
+<item historyLabel="rtcinterrupt.c" index="1">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="sensor_mutex.c" index="12">
+<item historyLabel="sensor_mutex.c" index="4">
 <position info="not_deleted" x="491" y="0"/>
 </item>
-<item historyLabel="includes.h" index="13">
+<item historyLabel="includes.h" index="5">
 <position info="not_deleted" x="2650" y="0"/>
 </item>
-<item historyLabel="misc.h" index="14">
+<item historyLabel="misc.h" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="includes.h" index="13">
+<item historyLabel="includes.h" index="5">
 <position info="not_deleted" x="2678" y="0"/>
 </item>
-<item historyLabel="rtcinterrupt.c" index="8">
+<item historyLabel="rtcinterrupt.c" index="1">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="loraread_mailbox.c" index="9">
+<item historyLabel="loraread_mailbox.c" index="2">
 <position/>
 </item>
-<item historyLabel="rtcinterrupt.c" index="8">
+<item historyLabel="rtcinterrupt.c" index="1">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="loraread_mailbox.c" index="9">
+<item historyLabel="loraread_mailbox.c" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="lorawrite_mailbox.c" index="4">
+<item historyLabel="lorawrite_mailbox.c" index="0">
 <position info="not_deleted" x="357" y="0"/>
 </item>
-<item historyLabel="main.h" index="15">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="1109" y="0"/>
 </item>
-<item historyLabel="loraread_mailbox.c" index="9">
+<item historyLabel="loraread_mailbox.c" index="2">
 <position info="not_deleted" x="355" y="0"/>
 </item>
-<item historyLabel="sensor_mutex.c" index="12">
+<item historyLabel="sensor_mutex.c" index="4">
 <position info="not_deleted" x="491" y="0"/>
 </item>
-<item historyLabel="rtcinterrupt.c" index="8">
+<item historyLabel="rtcinterrupt.c" index="1">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="lorawrite_mailbox.c" index="4">
+<item historyLabel="lorawrite_mailbox.c" index="0">
 <position info="not_deleted" x="357" y="0"/>
 </item>
-<item historyLabel="loraread_mailbox.c" index="9">
+<item historyLabel="loraread_mailbox.c" index="2">
 <position info="not_deleted" x="355" y="0"/>
 </item>
-<item historyLabel="lorawrite_mailbox.c" index="4">
+<item historyLabel="lorawrite_mailbox.c" index="0">
 <position info="not_deleted" x="357" y="0"/>
 </item>
-<item historyLabel="rtcinterrupt.c" index="8">
+<item historyLabel="rtcinterrupt.c" index="1">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="sensor_mutex.c" index="12">
+<item historyLabel="sensor_mutex.c" index="4">
 <position info="not_deleted" x="491" y="0"/>
 </item>
-<item historyLabel="includes.h" index="13">
+<item historyLabel="includes.h" index="5">
 <position info="not_deleted" x="2678" y="0"/>
 </item>
-<item active="true" historyLabel="rtcinterrupt.c" index="8">
+<item historyLabel="rtcinterrupt.c" index="1">
 <position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="includes.h" index="8">
+<position info="not_deleted" x="2678" y="0"/>
+</item>
+<item historyLabel="main.h" index="9">
+<position info="not_deleted" x="1109" y="0"/>
+</item>
+<item historyLabel="rtcinterrupt.c" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="10">
+<position info="not_deleted" x="3657" y="0"/>
+</item>
+<item historyLabel="lora.c" index="11">
+<position info="not_deleted" x="8783" y="0"/>
+</item>
+<item historyLabel="sensor.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="sensor.c" index="12">
+<position info="not_deleted" x="653" y="0"/>
+</item>
+<item historyLabel="lora.c" index="11">
+<position info="not_deleted" x="8582" y="0"/>
+</item>
+<item historyLabel="lorawrite_mailbox.c" index="13">
+<position info="not_deleted" x="763" y="0"/>
+</item>
+<item historyLabel="sensor.c" index="12">
+<position info="not_deleted" x="718" y="0"/>
+</item>
+<item historyLabel="lora.c" index="11">
+<position info="not_deleted" x="8582" y="0"/>
+</item>
+<item historyLabel="sensor.c" index="12">
+<position info="not_deleted" x="718" y="0"/>
+</item>
+<item historyLabel="lorawrite_mailbox.c" index="13">
+<position info="not_deleted" x="577" y="0"/>
+</item>
+<item historyLabel="sensor.c" index="12">
+<position info="not_deleted" x="991" y="0"/>
+</item>
+<item historyLabel="lorawrite_mailbox.c" index="13">
+<position info="not_deleted" x="743" y="0"/>
+</item>
+<item historyLabel="lora.c" index="11">
+<position info="not_deleted" x="8373" y="0"/>
+</item>
+<item historyLabel="sensor.c" index="12">
+<position info="not_deleted" x="1000" y="0"/>
+</item>
+<item historyLabel="lora.c" index="11">
+<position info="not_deleted" x="8469" y="0"/>
+</item>
+<item historyLabel="lorawrite_mailbox.c" index="13">
+<position info="not_deleted" x="17" y="0"/>
+</item>
+<item historyLabel="main.h" index="9">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="includes.h" index="8">
+<position info="not_deleted" x="2678" y="0"/>
+</item>
+<item historyLabel="sensor_mutex.c" index="14">
+<position info="not_deleted" x="491" y="0"/>
+</item>
+<item historyLabel="lora.c" index="11">
+<position info="not_deleted" x="5673" y="0"/>
+</item>
+<item historyLabel="sensor.c" index="12">
+<position info="not_deleted" x="59" y="0"/>
+</item>
+<item historyLabel="lora.c" index="11">
+<position info="not_deleted" x="6670" y="0"/>
+</item>
+<item historyLabel="lorawrite_mailbox.c" index="13">
+<position info="not_deleted" x="16" y="0"/>
+</item>
+<item active="true" historyLabel="main.h" index="9">
+<position info="not_deleted" x="23" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -452,50 +476,50 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="uC_project/main.h">
-<persistable path="/uC_project/main.h"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lorawrite_mailbox.c" tooltip="uC_project/lorawrite_mailbox.c">
 <persistable path="/uC_project/lorawrite_mailbox.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sensor.c" tooltip="uC_project/sensor.c">
+<persistable path="/uC_project/sensor.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lora.c" tooltip="uC_project/ports/source/lora.c">
+<persistable path="/uC_project/ports/source/lora.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="loraread_mailbox.c" tooltip="uC_project/loraread_mailbox.c">
 <persistable path="/uC_project/loraread_mailbox.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="misc.h" tooltip="uC_project/cmsis_lib/include/misc.h">
-<persistable path="/uC_project/cmsis_lib/include/misc.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="includes.h" tooltip="uC_project/uC-OS-II/includes.h">
-<persistable path="/uC_project/uC-OS-II/includes.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="uC_project/stdio/printf.c">
+<persistable path="/uC_project/stdio/printf.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sensor_mutex.c" tooltip="uC_project/sensor_mutex.c">
 <persistable path="/uC_project/sensor_mutex.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_i2c.c" tooltip="uC_project/cmsis_lib/source/stm32f4xx_i2c.c">
-<persistable path="/uC_project/cmsis_lib/source/stm32f4xx_i2c.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="taskcreate.c" tooltip="uC_project/taskcreate.c">
+<persistable path="/uC_project/taskcreate.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_i2c.h" tooltip="uC_project/cmsis_lib/include/stm32f4xx_i2c.h">
-<persistable path="/uC_project/cmsis_lib/include/stm32f4xx_i2c.h"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="string.h" tooltip="C:\Program Files (x86)\GNU Tools ARM Embedded\5.4 2016q2\arm-none-eabi\include\string.h">
+<persistable path="C:\Program Files (x86)\GNU Tools ARM Embedded\5.4 2016q2\arm-none-eabi\include\string.h" project="Mijn_Applicatie"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lora.h" tooltip="uC_project/ports/header/lora.h">
-<persistable path="/uC_project/ports/header/lora.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ucos_ii.h" tooltip="Mijn_Applicatie/uC-OS-II/ucos_ii.h">
+<persistable path="/Mijn_Applicatie/uC-OS-II/ucos_ii.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="uc_methods/cmsis_boot/stm32f4xx.h">
-<persistable path="/uc_methods/cmsis_boot/stm32f4xx.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="taskcreate.h" tooltip="Mijn_Applicatie/taskcreate.h">
+<persistable path="/Mijn_Applicatie/taskcreate.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" tooltip="uc_methods/cmsis_boot/startup/startup_stm32f4xx.c">
-<persistable path="/uc_methods/cmsis_boot/startup/startup_stm32f4xx.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="Mijn_Applicatie/stdio/printf.c">
+<persistable path="/Mijn_Applicatie/stdio/printf.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="interrupt.c" tooltip="uc_methods/interrupt.c">
-<persistable path="/uc_methods/interrupt.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="calc.c" tooltip="Mijn_Applicatie/calc.c">
+<persistable path="/Mijn_Applicatie/calc.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.c" tooltip="uC_project/cmsis_lib/source/stm32f4xx_rcc.c">
-<persistable path="/uC_project/cmsis_lib/source/stm32f4xx_rcc.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="keytask.c" tooltip="Mijn_Applicatie/keytask.c">
+<persistable path="/Mijn_Applicatie/keytask.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_tim.c" tooltip="uC_project/cmsis_lib/source/stm32f4xx_tim.c">
-<persistable path="/uC_project/cmsis_lib/source/stm32f4xx_tim.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="keytask.c" tooltip="uc_methods/keytask.c">
+<persistable path="/uc_methods/keytask.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rtc.c" tooltip="uC_project/cmsis_lib/source/stm32f4xx_rtc.c">
-<persistable path="/uC_project/cmsis_lib/source/stm32f4xx_rtc.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="uC_project/main.h">
+<persistable path="/uC_project/main.h"/>
 </file>
 </mruList>
 </workbench>
