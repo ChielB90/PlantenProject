@@ -3,7 +3,8 @@
 
 #define SIZE 11
 #define BEGINADDRESS 20
-#define SENSORAMOUNT 10
+
+#define SENSORAMOUNT 1
 
 typedef union Vochtigheid
 {
@@ -36,7 +37,7 @@ void SensorRead_Task(void *pdata)
 	  	OSTimeDly(12000); // 12000 ticks == 1 minute -> 200 ticks/s
 		for(int i = 0; i<SENSORAMOUNT; i++)
 	  	{
-	  		(pData+i)->vochtigheid.floatvalue = getData((pData+i)->address);
+	  		(pData+i)->vochtigheid.floatvalue =getData((pData+i)->address);
 			floattohexstring((pData+i));
 			OSQPost(LoraQHandle, (pData+i)->datamsg);
 		}
