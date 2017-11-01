@@ -3,6 +3,7 @@
 
 #define SIZE 11
 #define BEGINADDRESS 20
+
 #define SENSORAMOUNT 1
 
 typedef union Vochtigheid
