@@ -9,7 +9,6 @@
 #include "main.h"
 
 #define LORA_DATASIZE 50
-#define DATASIZE 10
 
 void LoraWrite_PostTask(void *pdata) {
 	INT8U error;
@@ -25,7 +24,7 @@ void LoraWrite_PostTask(void *pdata) {
 		{
 			while(msglen <= (LORA_DATASIZE - DATASIZE) && msglen < (DATASIZE*qd.OSNMsgs))
 			{
-				strcpy((buffer+msglen),(char*)OSQPend(LoraQHandle, WAIT_FOREVER,&error));
+				strcpy((buffer+msglen),(char*)OSQAccept(LoraQHandle, &error));
 				msglen += DATASIZE;
 			}
 			msglen = 0;
