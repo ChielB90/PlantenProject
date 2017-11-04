@@ -98,7 +98,14 @@ void LORA_gets(char *s)
 	}
 }
 
-//designed by tijmen
+/* void LORA_combine
+ * args: INT8U command, char *parameter, char *target
+ * remarks:
+ * it will put the command on the target string with the additional parameters.
+ * you can see the switch cases as branches from a tree, the first nibble chooses the base command (sys, mac or radio)
+ * the second nibble specifies the command.
+ * (c) Tijmen van der Leest
+ */
 void LORA_combine(INT8U command, char *parameter, char *target)
 {
 	char errorCode[10];
@@ -381,7 +388,7 @@ INT8U LORA_connect(void)
 	char buffer[LORA_SIZE];
 
 	//LORA join
-	LORA_combine(LORA_JOIN, LABP, msg);
+	LORA_combine(LORA_JOIN, LOTAA, msg);
 	UART_puts("\r\nprint LORA_combine: "); UART_puts(msg);
 
 	LORA_puts(msg);
@@ -392,7 +399,7 @@ INT8U LORA_connect(void)
 	{
 		//LORA module is not registered
 		if(strstr(buffer, LKEYSNOTINIT))
-			LORA_register(LABP);
+			LORA_register(LOTAA);
 
 		UART_puts("\r\ngot error: "); UART_puts(buffer);
 		return FALSE;
