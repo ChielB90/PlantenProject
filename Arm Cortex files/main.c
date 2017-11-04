@@ -145,10 +145,11 @@ int main (void)
 
     //LORA
     UART_puts("\r\nStart LORA_init...\r\n");
-    LORA_init();
-    LORA_gets(LORA_version);
+	LORA_init();
+	LORA_gets(LORA_version);
     //LCD_puts(LORA_version);
     UART_puts("\r\ninit done...\r\n");
+
     while(LORA_connect() == FALSE)
     {
     	DELAY_ms(50);

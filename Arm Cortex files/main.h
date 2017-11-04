@@ -21,8 +21,18 @@ extern int Uart_debug_out; // bitmask-toggle key for task-debug-output
 #define QSIZE               10  // 10 q-members
 #define LQSIZE 				32
 
-//flag difines
+//flag defines
 #define READY 0x01
+
+//Struct DATA define
+#define CAYENNE
+
+#ifdef CAYENNE
+#define DATASIZE 6
+#endif
+#ifndef CAYENNE
+#define DATASIZE 10
+#endif
 
 // priorities for all tasks and prty of mutex-semaphore itself
 enum {
@@ -83,3 +93,4 @@ extern void LoraWrite_PendTask(void *pdata);
 extern void SensorRead_Task(void *pdata);
 
 extern float getData(char address);
+extern void I2Cinit();
