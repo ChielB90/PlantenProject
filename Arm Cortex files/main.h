@@ -38,11 +38,11 @@ extern int Uart_debug_out; // bitmask-toggle key for task-debug-output
 enum {
     INITTASK_PRTY = 5,
 
-    MUTEX_PRTY = 8,       // careful, this one should be highest of all using tasks
+    // careful, this one should be highest of all using tasks
+    MUTEX_PRTY = 8,
 
     SENSORREAD_PRTY = 10,
 
-    READFLAG_PRTY,
     MBOXWRITEPOST_PRTY,
     MBOXWRITEPEND_PRTY,
 

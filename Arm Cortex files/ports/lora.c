@@ -2,16 +2,14 @@
 // prog: lora.c
 //       uart3/LORA driver for ARM-board v5
 // note: directed from ports/source/uart.c!
-// auth: CB
+//		 see for defines lora.h in ports/header/
+// auth: Chileam Bohnen
 //////////////////////////////////////////////////////////////////////////////
 
 #include "includes.h"
 
 void LORA_init()
 {
-	// TODO
-	//pin initalisatie van UART3
-
 	//	---	System Clocks Configuration ---
 	//USART3 clock enable
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3, ENABLE);
@@ -201,6 +199,7 @@ void LORA_combine(INT8U command, char *parameter, char *target)
 			strcat(target, LCH);
 			break;
 
+			//devaddr
 		case 0x14:
 			strcat(target, LDEVADDR);
 			break;
@@ -286,6 +285,12 @@ void LORA_combine(INT8U command, char *parameter, char *target)
 	strcat(target, MSGEND);
 }
 
+/* void LORA_register
+ * args: char *mode
+ * remarks:
+ * registers RN2483 LoRaWAN module by ABP or OTAA mode
+ * (c) Tijmen van der Leest and Chileam Bohnen
+ */
 void LORA_register(char *mode)
 {
 	char msg[LORA_SIZE];
@@ -381,32 +386,45 @@ void LORA_register(char *mode)
 	}
 }
 
+/* INT8U LORA_connect
+ * args: void
+ * remarks:
+ * Connects RN2483 LoRaWAN module with TTN
+ * RN2483 response with two messages when joining is completed
+ * when join response is OK wait for and accepted message after
+ * when join response keys_not_init initialize keys, register and retry joining
+ * 	see LORA_register()
+ * (c) Chileam Bohnen
+ */
 INT8U LORA_connect(void)
 {
-	//INT8U error = 1;
-	char msg[LORA_SIZE];
-	char buffer[LORA_SIZE];
+	char msg[LORA_SIZE];	//join message to TTN
+	char buffer[LORA_SIZE];	//Response buffer from RN2483
 
-	//LORA join
+	//combine RN2483 join command with mode, OTAA is used for cayenne app
 	LORA_combine(LORA_JOIN, LOTAA, msg);
 	UART_puts("\r\nprint LORA_combine: "); UART_puts(msg);
 
+	//send command to RN2483
 	LORA_puts(msg);
 	LORA_gets(buffer);
 	UART_puts("\r\njoin got: "); UART_puts(buffer);
 
+	//if join is not OK
 	if (strstr(buffer, LOK) == NULL)
 	{
 		//LORA module is not registered
 		if(strstr(buffer, LKEYSNOTINIT))
+			//register RN2483 module
 			LORA_register(LOTAA);
-
-		UART_puts("\r\ngot error: "); UART_puts(buffer);
+		//Retry to join
 		return FALSE;
 	}
 
+	//wait for second response from RN2483
 	LORA_gets(buffer);
 	UART_puts("got: "); UART_puts(buffer);
+	//if join is not accepted retry join or register
 	if (strstr(buffer, LACCEPTED) == NULL)
 		return FALSE;
 
