@@ -150,12 +150,14 @@ int main (void)
     //LCD_puts(LORA_version);
     UART_puts("\r\ninit done...\r\n");
 
+    //Connection with TheThingsNetwork
     while(LORA_connect() == FALSE)
     {
     	DELAY_ms(50);
     }
     UART_puts("\r\nLORA done...\r\n");
 
+    //Initialization uC/OS-II
     OSInit();
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
@@ -164,12 +166,10 @@ int main (void)
 	GPIOD -> MODER |= ( 1 << 28 );
 	GPIOD -> MODER |= ( 1 << 30 );
 
+	//Creating OSHandels and OSTask
     OSTaskCreate(InitTask, NULL, &InitTaskStk[STACK_SIZE-1], INITTASK_PRTY);
+    //OS Boot
 	OSStart();
-
-	// --TODO--
-	//Niet zo gebruiken
-	//PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
 
 	// Nothing comes beyond this point
     while(TRUE);

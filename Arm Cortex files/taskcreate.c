@@ -19,6 +19,7 @@ OS_STK LoraWrite_PostTask_Stk	[STACK_SIZE];
 OS_STK LoraWrite_PendTask_Stk	[STACK_SIZE];
 OS_STK SensorRead_Task_Stk	 	[STACK_SIZE];
 
+
 // allocation of array of structures
 // notes: the last structure is set to zero's, not necessary, but it simplifies
 //        to disable a task: insert // in front of the line
